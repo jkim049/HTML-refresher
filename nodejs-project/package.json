@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "description": "",
+  "mode": "module",
+  "main": "app.js",
+  "scripts": {
+    "run": "nodemon -r esm app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^1.19.4"
+  }
+}

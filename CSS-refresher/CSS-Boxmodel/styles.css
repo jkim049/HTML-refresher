@@ -1,0 +1,35 @@
+div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+}
+.animation {
+  background: blue;
+  /* animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: 2; */
+  animation: move 2s 2;
+  animation-fill-mode: forwards;
+}
+
+.animation:hover {
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(20px);
+    opacity: 0.5;
+  }
+}
